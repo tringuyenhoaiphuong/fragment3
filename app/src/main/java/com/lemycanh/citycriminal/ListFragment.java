@@ -6,23 +6,28 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ListFragment extends Fragment {
+public class ListFragment extends Fragment implements AdapterView.OnItemClickListener {
 
-
-    private EditText mEtMessage;
-    private Button mBtSend;
+    private ListView mLvProblems;
 
     public ListFragment() {
         // Required empty public constructor
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void OnProblemChangedEvent(ProblemChangedEvent event) {
+        mLvProblems.invalidateViews();
     }
 
 
@@ -31,16 +36,31 @@ public class ListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
-        this.mEtMessage = view.findViewById(R.id.et_message_to_send);
-        this.mBtSend = view.findViewById(R.id.bt_send);
-        this.mBtSend.setOnClickListener(v -> {
-            String message = ListFragment.this.mEtMessage.getText().toString();
-            EventBus.getDefault().post(new ListChangedEvent(message));
-        });
+        mLvProblems = view.findViewById(R.id.lv_problems);
+        mLvProblems.setAdapter(new ProblemAdapter(getActivity()));
+        mLvProblems.setOnItemClickListener(this);
         return view;
     }
 
     public static Fragment CreateFragment() {
         return new ListFragment();
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Problem problem = (Problem) mLvProblems.getAdapter().getItem(position);
+        EventBus.getDefault().post(new ListChangedEvent(problem));
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        EventBus.getDefault().unregister(this);
     }
 }

@@ -5,18 +5,17 @@ package com.lemycanh.citycriminal;
  */
 
 public class ListChangedEvent {
-    private String message;
+    private Problem problem;
 
-
-    public ListChangedEvent(String message) {
-        this.message = message;
+    public ListChangedEvent(Problem problem) {
+        this.problem = problem;
     }
 
-    public String getMessage() {
-        return message;
+    public Problem getProblem() {
+        return problem;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setProblem(Problem problem) {
+        this.problem = problem;
     }
 }

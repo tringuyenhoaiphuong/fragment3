@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="problemtitles">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Praesent ac arcu at lectus euismod sagittis elementum in est.</item>
+        <item>Praesent vel sapien ornare sem vehicula viverra.</item>
+        <item>In iaculis enim nec ante tempus, vitae porttitor urna feugiat.</item>
+        <item>Nullam bibendum ex porttitor facilisis interdum.</item>
+        <item>Proin pharetra nulla sed iaculis euismod.</item>
+        <item>Aenean porttitor ligula et dictum molestie.</item>
+        <item>Pellentesque aliquet tellus ultricies dolor accumsan, non congue nisl rhoncus.</item>
+        <item>Donec fermentum mi id neque luctus gravida.</item>
+        <item>Vestibulum in metus fringilla, ultricies metus et, lobortis ipsum.</item>
+        <item>Mauris eu neque vitae orci congue imperdiet eu id augue.</item>
+        <item>Morbi vestibulum turpis et neque sollicitudin lacinia.</item>
+        <item>Nulla interdum ipsum cursus elit consequat, et ullamcorper lectus gravida.</item>
+        <item>Donec viverra massa ut mollis tristique.</item>
+        <item>Sed sit amet nunc eu augue semper dapibus sed eu tortor.</item>
+        <item>Fusce facilisis lectus at orci aliquet euismod.</item>
+        <item>Praesent id nibh faucibus, eleifend quam vitae, bibendum lectus.</item>
+        <item>Quisque ornare purus et orci hendrerit, nec gravida dui pharetra.</item>
+        <item>Sed hendrerit sem eget nulla convallis accumsan.</item>
+        <item>Maecenas consectetur mauris non neque sagittis, sed interdum lacus ullamcorper.</item>
+        <item>Mauris blandit neque vel arcu facilisis eleifend.</item>
+        <item>Nulla volutpat mauris rutrum dui volutpat, eget facilisis ipsum ultrices.</item>
+        <item>Maecenas vestibulum dolor at justo cursus rhoncus.</item>
+        <item>Pellentesque nec mauris fringilla, dictum lacus et, placerat ipsum.</item>
+        <item>Cras eleifend eros id interdum porta.</item>
+        <item>Curabitur vel ligula ac augue semper interdum.</item>
+        <item>Integer vel turpis at mauris condimentum auctor.</item>
+        <item>Etiam ut purus non massa bibendum scelerisque quis tincidunt nibh.</item>
+        <item>Vivamus pellentesque nunc sit amet felis pretium, sed rutrum est suscipit.</item>
+        <item>Quisque eu diam at mi vehicula tempor.</item>
+        <item>Curabitur bibendum nisi sit amet viverra auctor.</item>
+        <item>Maecenas pharetra leo ac maximus sollicitudin.</item>
+        <item>Donec sit amet nisl maximus, euismod tortor eu, ornare turpis.</item>
+        <item>Duis bibendum arcu ut turpis pretium, ac mollis justo commodo.</item>
+        <item>Pellentesque convallis turpis sit amet ligula accumsan, et varius ligula tincidunt.</item>
+        <item>Mauris venenatis lacus sed ultrices molestie.</item>
+        <item>Morbi sit amet tortor non quam commodo dignissim at ut arcu.</item>
+        <item>Donec eu mauris eleifend libero bibendum dapibus eu quis justo.</item>
+        <item>In ullamcorper purus ac sapien pretium, eget rhoncus quam rutrum.</item>
+        <item>Aliquam egestas est sit amet purus fringilla condimentum.</item>
+        <item>Aliquam quis nunc porta, faucibus augue id, porttitor velit.</item>
+        <item>Donec in nulla vel enim tincidunt euismod vel volutpat arcu.</item>
+        <item>Mauris ac risus sollicitudin, rhoncus odio a, scelerisque sapien.</item>
+        <item>In tempor tellus in luctus sollicitudin.</item>
+        <item>Integer in dolor sed quam egestas ornare.</item>
+        <item>Aliquam vitae neque nec tellus convallis vestibulum.</item>
+        <item>Pellentesque vestibulum nisl et dignissim iaculis.</item>
+        <item>Praesent vel est iaculis, dictum orci at, sagittis ante.</item>
+        <item>Morbi mattis diam eget dolor euismod, sed consectetur eros semper.</item>
+        <item>Cras facilisis lorem quis massa consectetur aliquam quis sit amet urna.</item>
+        <item>Nam varius nunc id consectetur gravida.</item>
+        <item>Curabitur at nulla luctus, mollis leo ut, consequat justo.</item>
+        <item>Fusce vitae lacus lacinia, bibendum lacus nec, consectetur velit.</item>
+        <item>Nulla ac lorem in est scelerisque sodales nec et nisl.</item>
+        <item>Mauris consectetur sem ut lectus venenatis tincidunt vel suscipit urna.</item>
+        <item>Suspendisse dictum lectus quis tellus molestie congue.</item>
+        <item>Pellentesque iaculis nibh eu felis imperdiet gravida.</item>
+        <item>Donec tincidunt lacus sed mauris mattis, fringilla mattis turpis egestas.</item>
+        <item>Proin sit amet nisl et purus pulvinar consectetur quis vel diam.</item>
+        <item>Vestibulum a mauris aliquet libero auctor egestas eu id quam.</item>
+        <item>Praesent vel justo bibendum, ornare dui ut, varius ligula.</item>
+        <item>Nam et lacus a felis mollis vehicula.</item>
+        <item>Vivamus laoreet libero nec libero iaculis pulvinar.</item>
+        <item>Nunc vestibulum mauris quis arcu ullamcorper euismod.</item>
+        <item>Quisque fringilla odio non ante aliquet porttitor.</item>
+        <item>Morbi vitae velit eu felis faucibus pretium.</item>
+        <item>Sed lobortis neque in finibus accumsan.</item>
+        <item>Morbi eget est ut ex mollis rhoncus.</item>
+        <item>Pellentesque at orci sit amet velit bibendum porttitor et quis nulla.</item>
+        <item>Phasellus id mauris in urna pretium laoreet.</item>
+        <item>Etiam volutpat est ut odio tristique, eu tempor mi porttitor.</item>
+        <item>Curabitur quis neque sed neque commodo ullamcorper sit amet et ligula.</item>
+        <item>Vivamus ac augue facilisis, laoreet quam vitae, vestibulum urna.</item>
+        <item>Nullam sagittis enim ac rhoncus sagittis.</item>
+        <item>Fusce tempor velit tempus hendrerit euismod.</item>
+        <item>Curabitur nec libero tincidunt, venenatis ligula quis, cursus est.</item>
+        <item>Mauris blandit nisi nec mauris accumsan varius.</item>
+        <item>Proin eget massa vitae tellus varius convallis nec sed nisl.</item>
+        <item>Sed auctor dolor et nisi venenatis tincidunt.</item>
+        <item>Curabitur sagittis dui nec tellus laoreet bibendum.</item>
+        <item>Pellentesque consequat eros quis accumsan finibus.</item>
+        <item>Curabitur a felis sed sem euismod viverra non a erat.</item>
+        <item>Integer dictum ex sit amet ligula suscipit, ac sagittis orci eleifend.</item>
+        <item>Vestibulum hendrerit magna quis neque pellentesque, sed tincidunt orci tincidunt.</item>
+        <item>Praesent condimentum libero at velit pretium vulputate.</item>
+        <item>Phasellus lacinia justo sit amet sapien facilisis, vitae posuere lorem elementum.</item>
+        <item>Etiam pulvinar nunc facilisis augue dictum, vel fermentum augue bibendum.</item>
+        <item>Quisque commodo nulla eu lectus posuere, non ullamcorper justo semper.</item>
+        <item>Aenean imperdiet nunc finibus pharetra sagittis.</item>
+        <item>Morbi nec nibh consequat, suscipit est at, dapibus diam.</item>
+        <item>Nunc imperdiet quam eu pulvinar placerat.</item>
+        <item>In sollicitudin nisi sit amet ultrices vestibulum.</item>
+        <item>Phasellus iaculis ante sit amet consectetur convallis.</item>
+        <item>Donec pharetra augue vel orci tincidunt vestibulum.</item>
+        <item>Aenean auctor quam id molestie tincidunt.</item>
+        <item>Nam scelerisque odio bibendum, vehicula velit at, lobortis tortor.</item>
+        <item>Praesent bibendum massa id eleifend gravida.</item>
+        <item>Nam ut quam mollis, volutpat dolor sed, condimentum orci.</item>
+        <item>Quisque id ligula eget orci pellentesque venenatis et sed nunc.</item>
+        <item>In vel tortor ornare, commodo ex quis, pretium justo.</item>
+    </string-array>
+    <string-array name="problemcontent">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Cras in odio varius, volutpat ex quis, pellentesque massa.</item>
+        <item>Integer at turpis vitae augue tristique venenatis.</item>
+        <item>Duis dignissim nulla sed justo ullamcorper malesuada.</item>
+        <item>Morbi sed augue nec risus molestie imperdiet eget vitae enim.</item>
+        <item>Phasellus commodo quam condimentum, aliquet lorem non, bibendum urna.</item>
+        <item>In quis sem nec nibh pharetra iaculis.</item>
+        <item>Maecenas sit amet dolor ac felis bibendum placerat.</item>
+        <item>Donec non leo sed est rhoncus pharetra.</item>
+        <item>Phasellus vitae tortor vel nulla convallis convallis.</item>
+        <item>Vestibulum sit amet quam vitae risus eleifend rutrum ut id sem.</item>
+        <item>Sed viverra urna sed tortor aliquam, eget dignissim nunc pretium.</item>
+        <item>Phasellus dignissim est non tincidunt mollis.</item>
+        <item>Suspendisse ac metus a nisl finibus imperdiet sit amet tristique sapien.</item>
+        <item>Integer faucibus sapien eget risus vulputate blandit.</item>
+        <item>Nam ultricies ante in quam commodo sagittis.</item>
+        <item>Aliquam id sapien tempus, congue odio at, facilisis diam.</item>
+        <item>Etiam porta diam a sollicitudin porta.</item>
+        <item>Vestibulum mattis lacus et mauris sollicitudin, in rutrum felis congue.</item>
+        <item>Phasellus non ipsum eu sem varius dictum.</item>
+        <item>Quisque a turpis efficitur, feugiat est eget, volutpat ligula.</item>
+        <item>Donec finibus ex quis ligula iaculis accumsan.</item>
+        <item>Mauris ac nulla quis lorem blandit ornare a id ex.</item>
+        <item>Fusce tincidunt metus sed mattis rutrum.</item>
+        <item>Suspendisse rhoncus enim in sem aliquet aliquet.</item>
+        <item>Praesent ac libero eu nulla rutrum tempus in in justo.</item>
+        <item>Praesent sed magna euismod massa convallis molestie ac in mi.</item>
+        <item>Phasellus facilisis nulla euismod nisi tristique facilisis.</item>
+        <item>Quisque malesuada justo id vestibulum interdum.</item>
+        <item>Integer tempor nulla eget ante varius pharetra.</item>
+        <item>Nam viverra libero condimentum felis consequat congue.</item>
+        <item>Fusce vel enim maximus nulla pulvinar dignissim blandit vel nibh.</item>
+        <item>Integer pharetra sapien ut enim imperdiet, eget dictum lorem consequat.</item>
+        <item>Nam varius risus mollis turpis hendrerit, sit amet dapibus dui tempus.</item>
+        <item>Aliquam scelerisque elit vitae ex tempus interdum.</item>
+        <item>Nunc ullamcorper lorem eu augue pellentesque aliquet.</item>
+        <item>Nullam euismod ex et quam aliquam, aliquet venenatis nulla placerat.</item>
+        <item>Praesent ut ligula dictum, vestibulum lorem in, sollicitudin massa.</item>
+        <item>Vestibulum condimentum sapien sed imperdiet efficitur.</item>
+        <item>Aenean ac tortor in erat efficitur egestas.</item>
+        <item>Donec et lorem vitae lectus elementum ultricies id at tellus.</item>
+        <item>Suspendisse commodo diam ac condimentum bibendum.</item>
+        <item>Nunc accumsan risus vitae arcu ultrices, eget bibendum lacus dignissim.</item>
+        <item>Ut at tellus ut mauris pharetra bibendum vel vitae velit.</item>
+        <item>Nulla accumsan nunc nec mauris aliquam, id venenatis magna consequat.</item>
+        <item>Phasellus lacinia velit tincidunt mauris iaculis, eget scelerisque justo tincidunt.</item>
+        <item>Etiam et leo id eros mattis porta.</item>
+        <item>Fusce gravida ligula at dui fermentum, et hendrerit dui gravida.</item>
+        <item>Nam scelerisque lorem non nibh luctus, et ullamcorper purus egestas.</item>
+        <item>Donec quis est non turpis rhoncus scelerisque.</item>
+        <item>Suspendisse porttitor libero eu rhoncus egestas.</item>
+        <item>Nullam varius nibh ac tortor tristique, in tincidunt nibh tincidunt.</item>
+        <item>Duis scelerisque lacus a turpis malesuada blandit sit amet vel est.</item>
+        <item>Vestibulum sit amet purus vel turpis lobortis cursus.</item>
+        <item>Donec sed elit tristique, venenatis dolor at, blandit sapien.</item>
+        <item>Integer rhoncus tellus non lacus accumsan consectetur.</item>
+        <item>Aliquam vel nunc ac velit elementum maximus quis eu tellus.</item>
+        <item>Curabitur sed lectus egestas, mollis augue non, vehicula ligula.</item>
+        <item>Nulla sodales metus volutpat, lobortis quam a, faucibus sem.</item>
+        <item>Vivamus ullamcorper ipsum sit amet nibh sagittis ullamcorper.</item>
+        <item>Pellentesque imperdiet neque eget risus pretium scelerisque a a orci.</item>
+        <item>Phasellus suscipit tortor non metus consectetur viverra.</item>
+        <item>Sed sed mauris porta, blandit libero at, facilisis felis.</item>
+        <item>Morbi euismod nibh quis elit bibendum tincidunt.</item>
+        <item>Fusce auctor dui ut est elementum, ut condimentum orci fringilla.</item>
+        <item>Nam sed libero bibendum, cursus nisi eu, accumsan arcu.</item>
+        <item>Sed eu eros dignissim, luctus turpis eu, varius purus.</item>
+        <item>Aenean fermentum ex commodo mattis aliquet.</item>
+        <item>Aliquam a leo vel lorem aliquet tempus.</item>
+        <item>Vestibulum ultrices mi ut elit maximus convallis.</item>
+        <item>Pellentesque ac neque egestas, auctor neque at, iaculis felis.</item>
+        <item>Nulla sed leo ut mauris venenatis rhoncus.</item>
+        <item>Morbi rhoncus metus quis magna rutrum, sit amet elementum nibh ornare.</item>
+        <item>Nam et nisi non turpis tincidunt pellentesque ac id purus.</item>
+        <item>Etiam aliquam mi eget risus maximus, id feugiat lectus venenatis.</item>
+        <item>Mauris id tellus eu ante rutrum dictum vel in dui.</item>
+        <item>Integer fermentum mauris a libero aliquet lobortis.</item>
+        <item>Maecenas eu dui tincidunt, iaculis purus et, pellentesque orci.</item>
+        <item>Duis vitae nulla a urna rhoncus tristique commodo bibendum neque.</item>
+        <item>Donec at velit eu enim ultricies hendrerit sit amet eget quam.</item>
+        <item>Nunc consectetur risus at lacus aliquam, dignissim varius nulla euismod.</item>
+        <item>Sed posuere lorem et nibh molestie condimentum.</item>
+        <item>Phasellus id odio at metus porta fermentum.</item>
+        <item>In ultrices tortor eu risus porttitor, et sollicitudin erat eleifend.</item>
+        <item>Morbi id libero semper, finibus diam vitae, luctus nisl.</item>
+        <item>Donec finibus magna quis quam malesuada, ut tempor justo congue.</item>
+        <item>Etiam facilisis dolor eget massa mattis rhoncus.</item>
+        <item>Quisque eu nunc et est semper blandit ut id mauris.</item>
+        <item>Donec nec velit commodo, pharetra nibh ultricies, bibendum nisl.</item>
+        <item>Aliquam vitae quam a augue tristique dapibus vestibulum non est.</item>
+        <item>Pellentesque sodales felis eu viverra pharetra.</item>
+        <item>Integer luctus enim nec velit congue, vitae efficitur purus rhoncus.</item>
+        <item>In lobortis ex eget nisi consectetur volutpat.</item>
+        <item>Nunc consequat diam quis feugiat auctor.</item>
+        <item>Mauris vulputate nibh a mauris imperdiet, non ornare dolor consequat.</item>
+        <item>Maecenas id sapien et massa vestibulum congue.</item>
+        <item>Donec congue tellus auctor tincidunt mattis.</item>
+        <item>Praesent porttitor mi sed dui aliquam, tristique aliquet mi congue.</item>
+        <item>Suspendisse eget augue fringilla, rhoncus sem quis, ornare diam.</item>
+        <item>Quisque mattis felis vel auctor fermentum.</item>
+    </string-array>
+    <integer-array name="problemresolved">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+</resources>
