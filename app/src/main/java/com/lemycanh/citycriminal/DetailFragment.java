@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DetailFragment extends Fragment implements CompoundButton.OnCheckedChangeListener {
+public class DetailFragment extends Fragment {
 
     private TextView mTvTitle;
     private TextView mTvContent;
@@ -42,7 +42,11 @@ public class DetailFragment extends Fragment implements CompoundButton.OnChecked
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         mTvTimestamp.setText(dateFormat.format(mProblem.getTimestamp()));
         mCkResolved.setChecked(mProblem.isResolved());
-        mCkResolved.setOnCheckedChangeListener(this);
+
+        mCkResolved.setOnClickListener(v -> {
+            mProblem.setResolved(mCkResolved.isChecked());
+            EventBus.getDefault().post(new ProblemChangedEvent());
+        });
     };
 
     @Override
@@ -73,9 +77,4 @@ public class DetailFragment extends Fragment implements CompoundButton.OnChecked
         return new DetailFragment();
     }
 
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        mProblem.setResolved(isChecked);
-        EventBus.getDefault().post(new ProblemChangedEvent());
-    }
 }

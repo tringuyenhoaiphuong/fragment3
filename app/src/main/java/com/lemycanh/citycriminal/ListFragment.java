@@ -7,19 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ListView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ListFragment extends Fragment implements AdapterView.OnItemClickListener {
+public class ListFragment extends Fragment {
 
-    private ListView mLvProblems;
+    private RecyclerView rcProblems;
 
     public ListFragment() {
         // Required empty public constructor
@@ -27,7 +29,7 @@ public class ListFragment extends Fragment implements AdapterView.OnItemClickLis
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void OnProblemChangedEvent(ProblemChangedEvent event) {
-        mLvProblems.invalidateViews();
+        rcProblems.getAdapter().notifyDataSetChanged();
     }
 
 
@@ -36,9 +38,9 @@ public class ListFragment extends Fragment implements AdapterView.OnItemClickLis
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
-        mLvProblems = view.findViewById(R.id.lv_problems);
-        mLvProblems.setAdapter(new ProblemAdapter(getActivity()));
-        mLvProblems.setOnItemClickListener(this);
+        rcProblems = view.findViewById(R.id.lv_problems);
+        rcProblems.setLayoutManager(new LinearLayoutManager(getActivity()));
+        rcProblems.setAdapter(new ProblemAdapter2(getActivity()));
         return view;
     }
 
@@ -46,11 +48,7 @@ public class ListFragment extends Fragment implements AdapterView.OnItemClickLis
         return new ListFragment();
     }
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Problem problem = (Problem) mLvProblems.getAdapter().getItem(position);
-        EventBus.getDefault().post(new ListChangedEvent(problem));
-    }
+
 
     @Override
     public void onStart() {
